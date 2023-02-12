@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/checkout.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Оформление заказа</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="d-none d-lg-block language-nav">
+        <div class="container">
+          <a class="active__link d-inline-block" href="#">RU</a>
+          <a class="d-inline-block" href="#">UZB</a>
+        </div>
+      </nav>
+
+      <nav class="navbar stcky-top navbar-expand-lg">
+        <div class="container d-flex align-items-center">
+          <div class="phone-head">
+            <button
+              class="navbar-toggler navbar-toggler-cus btn btn-light"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#">
+              <img
+                class="ms-3 ms-sm-4 d-lg-none"
+                src="../images/heaer-phone-Logo.png"
+                alt=""
+            /></a>
+          </div>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img class="" src="../images/heaer-phone-Logo.png" alt="" />
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-cus"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <a class="navbar-brand navbar-brand-cus m-0 d-flex" href="#"
+                >MILANDI</a
+              >
+              <ul class="navbar-nav d-flex flex-grow-1 pe-3 mt-2 mt-lg-0">
+                <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
+                  <a class="nav-link nav-link-cus" href="../index.html"
+                    >Главная</a
+                  >
+                </li>
+                <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
+                  <a class="nav-link nav-link-cus" href="./about.html">О нас</a>
+                </li>
+                <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
+                  <a class="nav-link nav-link-cus" href="./categories.html">
+                    Категории
+                  </a>
+                </li>
+                <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
+                  <a class="nav-link nav-link-cus" href="./cooperation.html"
+                    >Сотрудничество</a
+                  >
+                </li>
+              </ul>
+              <div
+                class="d-block align-items-center flex-wrap d-lg-inline-block mt-1 mt-lg-0"
+              >
+                <a
+                  class="btn d-block d-lg-inline-block mt-2 mt-lg-0 btn-light me-lg-3"
+                  href="./login.html"
+                  >Войти</a
+                >
+                <a
+                  class="btn d-block d-lg-inline-block mt-2 mt-lg-0 btn-warning btn-header-cus me-lg-4"
+                  href="./register.html"
+                  >Зарегистрироваться</a
+                >
+              </div>
+            </div>
+          </div>
+          <a href="./card.html" class="shop-cart">
+            <img src="../images/navbar-shopping-cart.png" alt=""
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-xl" data-aos="fade-down">
+      <div class="checkout">
+        <div class="check__title__word">
+          <h1>Оформление заказа</h1>
+        </div>
+        <div
+          class="checkout__flex d-flex flex-xl-row align-items-xl-stretch justify-content-xl-between flex-lg-column align-items-lg-center flex-sm-column align-items-sm-center flex-xs-column align-items-xs-center flex-xs-column align-items-xs-center"
+        >
+          <div class="info__cash">
+            <div class="checkout__cost">
+              <div class="check__title__const">
+                <span>Товаров: (1)</span
+                ><span style="float: right">Сумма: $235</span>
+              </div>
+              <div class="check__title__money">
+                <span>Общая сумма к оплате: </span
+                ><span style="float: right">$235</span>
+              </div>
+            </div>
+            <div class="cash__option">
+              <div class="click__pay">
+                <form action="#" method="get" autocomplete="off">
+                    <label for="click__pay" class="d-flex align-items-center gap-2" id="formm">
+                        <input
+                          class="form-check-input"
+                          id="click__pay"
+                          type="radio"
+                          name="pay__me"
+                          value="Click" required
+                        /><img src="../images/checkout-images/click.png" />
+                      </label>
+              </div>
+              <div class="payme__pay">
+                <label for="payme__pay" class="d-flex align-items-center"
+                  ><input
+                    class="form-check-input"
+                    id="payme__pay"
+                    type="radio"
+                    name="pay__me"
+                    value="Payme" required/><img
+                    src="../images/checkout-images/payme.png"
+                /></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="check__buy__send mt-xl-0 mt-sm-5">
+            <form autocomplete="off" name="form" >
+              <input
+                type="text"
+                placeholder="Адресс доставки"
+                name="adressUser"
+               required
+                style="border: none"
+              />
+              <input
+                type="text"
+                placeholder="Имя"
+                name="userName"
+               required
+                style="border: none"
+              />
+              <input
+                type="number"
+                placeholder="Номер телефона"
+                name="userNumber"
+               required
+                style="border: none"
+              />
+              <label for="formm"></label><input type="submit" value="Перейти к оплате" class="submit" id="formm"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+        <div class="container" data-aos="fade-right">
+        <div class="shop">
+            <div class="shop__title">
+              <h1>Магазины</h1>
+              <div class="shop__logo d-flex justify-content-xl-between  gap-xl-3 gap-lg-2 flex-lg-wrap justify-content-lg-center  gap-md-2 flex-md-wrap justify-content-md-center gap-sm-2 flex-sm-wrap justify-content-sm-center0">
+            <img src="../images/checkout-images/shop__card_1.png" alt=""><img src="../images/checkout-images/boyner.png" alt=""><img src="../images/checkout-images/polo.png" alt=""><img src="../images/checkout-images/caldiy.png" alt="">
+              </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="category">
+        <div class="category__text">
+          <h1>Категории</h1>
+        </div>
+        <div class="clothes d-flex gap-3 justify-content-xl-start flex-xl-nowrap flex-lg-wrap justify-content-lg-center flex-md-wrap justify-content-md-center flex-sm-wrap justify-content-sm-center" data-aos="fade-left">
+          <div>Одежда</div>
+          <img src="../images/checkout-images/zara.png"><img src="../images/checkout-images/mavi.png"><img src="../images/checkout-images/ipekyol.png"><img src="../images/checkout-images/network.png">
+        </div>
+        <div class="clothes d-flex gap-3 justify-content-xl-start flex-xl-nowrap flex-lg-wrap justify-content-lg-center flex-md-wrap justify-content-md-center flex-sm-wrap justify-content-sm-center" data-aos="fade-right">
+          <div>Детская одежда</div>
+          <img src="../images/checkout-images/lc.png"><img src="../images/checkout-images/kt.png"><img src="../images/checkout-images/civil.png"><img src="../images/checkout-images/civil.png">
+        </div>
+        <div class="clothes d-flex gap-3 justify-content-xl-start flex-xl-nowrap flex-lg-wrap justify-content-lg-center flex-md-wrap justify-content-md-center flex-sm-wrap justify-content-sm-center" data-aos="fade-left">
+          <div>Обувь</div>
+          <img src="../images/checkout-images/flo.png"><img src="../images/checkout-images/world.png"><img src="../images/checkout-images/street.png"><img src="../images/checkout-images/marka park.png">
+        </div>
+        <div class="clothes d-flex gap-3 justify-content-xl-start flex-xl-nowrap flex-lg-wrap justify-content-lg-center flex-md-wrap justify-content-md-center flex-sm-wrap justify-content-sm-center" data-aos="fade-right">
+          <div>Домашний текстиль</div>
+          <img src="../images/checkout-images/tac.png"><img src="../images/checkout-images/english.png"><img src="../images/checkout-images/catton.png"><img src="../images/checkout-images/coco.png">
+        </div>
+        </div>
+      </div>
+    </section>
+    <section style="height: 55px;"></section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

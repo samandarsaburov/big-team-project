@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CATEGORIES</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="/css/category.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+  </head>
+  <body>
+    <header w3-include-html="topheader.html"></header>
+    <header
+      class="sticky-top"
+      id="header"
+      w3-include-html="navbar.html"
+    ></header>
+
+    <!-- <header id="header">
+      <nav class="d-none d-lg-block language-nav">
+        <div class="container">
+          <a class="active__link d-inline-block" href="#">RU</a>
+          <a class="d-inline-block" href="#">UZB</a>
+        </div>
+      </nav>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg bg-white">
+      <div class="container d-flex align-items-center">
+        <div class="phone-head">
+          <button
+            class="navbar-toggler navbar-toggler-cus btn btn-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#">
+            <img
+              class="ms-3 ms-sm-4 d-lg-none"
+              src="../images/heaer-phone-Logo.png"
+              alt=""
+          /></a>
+        </div>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img class="" src="../images/heaer-phone-Logo.png" alt="" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-cus"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <a class="navbar-brand navbar-brand-cus m-0 d-flex" href="#"
+              >MILANDI</a
+            >
+            <ul class="navbar-nav d-flex flex-grow-1 pe-3 mt-2 mt-lg-0">
+              <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
+                <a class="nav-link nav-link-cus" href="../index.html"
+                  >Главная</a
+                >
+              </li>
+              <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
+                <a class="nav-link nav-link-cus" href="./about.html">О нас</a>
+              </li>
+              <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
+                <a class="nav-link nav-link-cus" href="./category.html">
+                  Категории
+                </a>
+              </li>
+              <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
+                <a class="nav-link nav-link-cus" href="./cooperation.html"
+                  >Сотрудничество</a
+                >
+              </li>
+            </ul>
+            <div
+              class="d-block align-items-center flex-wrap d-lg-inline-block mt-1 mt-lg-0"
+            >
+              <a
+                class="btn d-block d-lg-inline-block mt-2 mt-lg-0 btn-light me-lg-3"
+                href="./login.html"
+                >Войти</a
+              >
+              <a
+                class="btn d-block d-lg-inline-block mt-2 mt-lg-0 btn-warning btn-header-cus me-lg-4"
+                href="./register.html"
+                >Зарегистрироваться</a
+              >
+            </div>
+          </div>
+        </div>
+        <a href="./card.html" class="shop-cart">
+          <img src="../images/navbar-shopping-cart.png" alt=""
+        /></a>
+      </div>
+    </nav> -->
+    <main>
+      <section id="category">
+        <div class="container">
+          <div class="category__row">
+            <div class="category__l">
+              <div class="accordion">
+                <div class="accordion__q">
+                  <h4 class="accordion__q__t">Category</h4>
+
+                  <i class="uil uil-angle-down"></i>
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Women’s wear</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Men’s wear</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Kid’s wear</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Shoes</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Сумки</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Accessories</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Underwear</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Decorations</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Home textiles</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">Wholesale</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <!-- second accordion  -->
+                <!-- <div class="accordion">
+                    <div class="accordion__q">
+                      <h4 class="accordion__q__t">Subcategories</h4>
+  
+                      <i class="uil uil-angle-down"></i>
+                    </div>
+                  </div> -->
+              </div>
+
+              <div class="accordion">
+                <div class="accordion__q">
+                  <h4 class="accordion__q__t">Gender</h4>
+
+                  <i class="uil uil-angle-down"></i>
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">For men</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+                <div class="accordion__a">
+                  <p class="accordion__a__p">For women</p>
+
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id=""
+                    class="accordion__a__i"
+                  />
+                </div>
+              </div>
+
+              <div class="accordion">
+                <div class="accordion__q">
+                  <h4 class="accordion__q__t">Price</h4>
+
+                  <i class="uil uil-angle-down"></i>
+                </div>
+                <div class="accordion__a">
+                  <p>color</p>
+                  <input type="radio" name="radio1" />
+                  <input type="radio" name="radio2" />
+                  <input type="radio" name="radio3" />
+                  <input type="radio" name="radio4" />
+                  <input type="radio" name="radio5" />
+                </div>
+              </div>
+            </div>
+            <div class="category__r">
+              <div class="category__r__row">
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category1.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category2.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category3.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category1.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category2.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category3.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category1.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category2.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category3.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category1.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category2.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category__r__row__card">
+                  <div class="category__r__row__card__inner">
+                    <div class="category__r__row__card__inner__ph">
+                      <img
+                        class="category__row__r__card__inner__ph__img"
+                        src="/images/card-category2/card-category3.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4 class="category__r__row__card__inner__title">
+                      Lorem ipsum dolor sit amet
+                    </h4>
+                    <div class="category__r__row__card__inner__f">
+                      <img src="/images/card-category2/star.png" alt="" />
+                      <p class="category__r__row__card__inner__f__t">
+                        855 у.е.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer w3-include-html="footer.html"></footer>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="/js/accordion.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

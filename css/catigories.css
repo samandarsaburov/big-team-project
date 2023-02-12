@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.navbar-brand-cus {
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.4px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #0d0d0d;
+}
+
+.language-nav {
+  background: #0d0d0d;
+}
+.language-nav a {
+  text-decoration: none;
+  font-size: 10px;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.3);
+}
+.language-nav .active__link {
+  color: #fff;
+}
+
+.btn-header-cus {
+  background: #ffc000;
+}
+.btn-header-cus:hover {
+  background-color: #ffdb6e;
+}
+
+.btn-close-cus {
+  border-radius: 0;
+  color: #000000;
+}
+.btn-close-cus:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.75;
+  background-color: red;
+}
+.btn-close-cus:focus {
+  outline: 0;
+  background-color: red;
+  box-shadow: none;
+  opacity: 1;
+}
+
+.nav-link-cus {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+.shop-cart img {
+  max-width: 25px;
+}
+
+.navbar-toggler-cus {
+  border-radius: 0;
+  padding: 0;
+  font-size: 20px;
+  border: none;
+}
+.navbar-toggler-cus:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  display: inline-block;
+  display: flex;
+}
+
+.footer__res {
+  display: none;
+}
+.footer__res_top {
+  border-bottom: 1px solid #dbdee7;
+}
+.footer__res_top p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.footer__res_top a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+  .footer__res {
+    display: block;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#categois {
+  padding-top: 64px;
+}
+
+.categois__title {
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #000000;
+}
+
+.categois__row {
+  margin: 0 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.categois__row__card {
+  width: 23%;
+}
+.categois__row__card__inner__ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categois__row__card__inner img {
+  width: 100%;
+}
+.categois__row__card__inner__p {
+  text-align: center;
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+@media screen and (max-width: 1120px) {
+  .categois__row {
+    margin: 0 28px;
+    gap: 24px;
+  }
+  .categois__row__card {
+    width: 45%;
+  }
+  .categois__row__card__inner__p {
+    text-align: center;
+    padding-top: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0d0d0d;
+  }
+}
+@media screen and (max-width: 500px) {
+  .categois__row {
+    margin: 0 4%;
+    gap: 18px;
+  }
+  .categois__row__card {
+    width: 80%;
+  }
+  .categois__row__card__inner__p {
+    text-align: left;
+    padding-top: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0d0d0d;
+  }
+}
+@media screen and (max-width: 400px) {
+  .categois__row {
+    margin: 0 12px;
+  }
+  .categois__row__card {
+    width: 45%;
+  }
+  .categois__row__card__inner__ph img {
+    width: 100%;
+  }
+  .categois__row__card__inner__p {
+    padding-top: 8px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0d0d0d;
+  }
+}
+@media screen and (max-width: 341px) {
+  .categois__row {
+    margin: 0 12px;
+  }
+  .categois__row__card {
+    width: 80%;
+  }
+  .categois__row__card__inner__ph img {
+    width: 100%;
+  }
+  .categois__row__card__inner__p {
+    padding-top: 8px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0d0d0d;
+  }
+}/*# sourceMappingURL=catigories.css.map */

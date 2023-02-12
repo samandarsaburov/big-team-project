@@ -1,0 +1,192 @@
+@import "../main.scss";
+
+.checkout {
+    padding-top: 64px;
+
+    .info__cash {
+        width: 460px;
+    }
+    .checkout__flex {
+        padding-top: 80px;
+    }
+    .cash__option {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 48px;
+        img {
+            width: 100%;
+        }
+        input {
+            z-index: 1;
+            width: 20px;
+        }
+
+        .form-check-input:checked {
+            background-color: #ffc000 !important;
+            border-color: #ffc000 !important;
+        }
+    }
+    .check__title__word {
+        text-align: center;
+        h1 {
+            font-weight: 700;
+            font-size: 34px;
+            letter-spacing: 0.25px;
+            font-feature-settings: "pnum" on, "lnum" on;
+            color: #000000;
+        }
+    }
+    .checkout__cost {
+        background-color: #ffc000;
+        padding: 16px 16px;
+        span {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 140%;
+            letter-spacing: 0.15px;
+            font-feature-settings: "pnum" on, "lnum" on;
+        }
+        .check__title__money {
+            padding-top: 25px;
+        }
+    }
+
+    .check__buy__send {
+        width: 558px;
+        display: flex;
+        flex-direction: column;
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+        input {
+            background: #f1f1f1;
+            padding: 18px !important;
+            font-style: normal;
+            font-weight: 400 !important;
+            font-size: 16px !important;
+            font-feature-settings: "pnum" on, "lnum" on;
+            outline-color: #ffc000;
+            margin-bottom: 24px;
+            -webkit-appearance: none;
+        }
+        .submit {
+            height: 64px;
+            border: 1px solid #ffc000;
+            background-color: #ffc000;
+            color: black !important;
+        }
+        .submit:hover {
+            border: 2px solid;
+            border-color: #ffc000;
+            background-color: #f1f1f1;
+        }
+    }
+}
+.shop {
+    width: 100%;
+    padding-top: 74px;
+    text-align: center;
+}
+.shop__logo {
+    padding-top: 32px;
+    img {
+        height: 107px;
+        width: 245px;
+    }
+    img:hover {
+        border: 1px solid #ffc000;
+        transform: scale(1.03);
+    }
+}
+.category {
+    padding-top: 74px;
+    .category__text {
+        text-align: center;
+    }
+    .clothes {
+        padding-top: 32px;
+        div {
+            height: 80px;
+            text-align: center;
+            width: 216px;
+            display: inline-block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffc000;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: 0.15px;
+        }
+        div:hover {
+            background: #ffff;
+            border: 2px solid #ffc000;
+        }
+        img {
+            height: 81px;
+            width: 215px;
+        }
+        img:hover {
+            border: 1px solid #ffc000;
+            transform: scale(1.03);
+        }
+    }
+}
+@media only screen and (max-width: 580px) {
+    .checkout__flex {
+        flex-direction: column;
+        align-items: center;
+
+        .check__buy__send {
+            margin-top: 40px;
+            width: 100%;
+
+            form {
+                width: inherit;
+            }
+        }
+        .info__cash {
+            width: 100%;
+        }
+    }
+    .shop__logo,
+    .clothes {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 320px !important;
+        }
+    }
+    .clothes {
+        span {
+            text-align: center;
+            width: 320px;
+        }
+    }
+}
+// @media screen and (max-width: 536px) {
+// }
+@media screen and (max-width: 390px) {
+    .cash__option {
+        gap: 20px;
+        flex-direction: column;
+
+        .click__pay,
+        .payme__pay {
+            margin-bottom: 20px;
+            margin: auto;
+            width: 206px;
+        }
+    }
+}
+@media screen and (max-width: 325px) {
+    .checkout__cost {
+        span {
+            font-size: 17px !important;
+        }
+    }
+}

@@ -1,0 +1,172 @@
+@import "../main.scss";
+
+$Montserrat:'Montserrat', sans-serif;
+span{
+    font-weight: 700;
+    color: #000000;
+}
+#alert{
+    padding-top: 72px;
+    .alert__blog{
+        display: flex;
+        .blog__img{
+            width: 30%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .blog__connet{
+            width: 70%;
+            padding: 25px 30px;
+            font-family:$Montserrat;
+            .connet__title{
+                font-weight: 700;
+                font-size: 24px;
+                color: #040921;
+                margin-bottom: 70px;
+            }
+            .connet__text{
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 0.25px;
+                color: #000000;
+                margin-bottom: 40px !important;
+                display: none;
+        
+                @media (min-width: 992px) {
+                    &{
+                      display: block;
+                    }
+                  }
+            }
+            .connet__end{
+                
+                @media (min-width: 992px) {
+                    &{
+                        justify-content: space-between;
+                        display: flex;
+                    }
+                  }
+
+               
+                .end__text{
+                    display: flex;
+                    justify-content: space-between;
+                    font-weight: 400;
+                    font-size: 16px;
+                    letter-spacing: 0.44px;
+                    color: #0D0D0D;
+                    @media (min-width: 992px) {
+                        &{
+                          display: flex;
+                          justify-content: start;
+                        }
+                      }
+                    .end__narx{
+                        margin-right: 0px;
+                        @media (min-width: 992px) {
+                            &{
+                              margin-right: 40px;
+                            }
+                          }
+                     
+                    }
+                   
+                }
+                .end__control{
+                  display: flex;
+                  justify-content: space-between;
+                  .end__img{
+                    display: block;
+                    @media (min-width: 992px) {
+                        &{
+                          display: none;
+                        }
+                      }
+
+                  }
+                  .end__controller{
+                    display: flex;
+                    .control__sub, .control__add{
+                        padding: 10px 16px;
+                         background: #FFC000;
+                         color:#fff
+    
+                      }
+                      .control__number{
+                        padding: 5px 43px;
+                        background: #F2F2F2;
+                        
+                      }  
+                  }
+                }
+                
+            }
+        }
+    }
+    .zakazat{
+        text-align: center;
+        
+        .btn1{
+            background: #FFC000;
+            padding: 18px 111px;
+            font-family: $Montserrat;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 0.75px;
+            color: #0D0D0D;
+        }
+        @media (min-width: 992px) {
+            &{
+                display: flex;
+                justify-content: space-between;
+            }
+          }
+
+    }
+}
+#carousel{
+    padding-top: 56px;
+    .carousel__title{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 34px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+    .card__sena{
+        display: flex;
+        justify-content: space-between;
+        margin: 8px 0 12px;
+        align-items:center;
+        .card__stars{
+            display: flex;
+            align-items: center;
+            .card__star{
+                margin-right: 3px;
+            }
+
+           
+        }
+        .card__narx{
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.1px;
+            color: #000000;
+        }
+        .narxs{
+            margin-left: -80px !important;
+        }
+    }
+
+
+}
+.btn3{
+padding: 8px 24px;
+background: #FFC000;
+border-radius: 6px;
+}

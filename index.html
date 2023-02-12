@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <header w3-include-html="topheader.html"></header>
+    <header
+      class="sticky-top"
+      id="header"
+      w3-include-html="navbar.html"
+    ></header>
+    <main>
+      <section id="home">
+        <div class="home-back container-cus">
+          <div class="container">
+            <div class="home-text d-none d-lg-block">
+              <h2 class="main__title main__title__white">
+                Быстрый и удобный шоппинг, не выходя из дома.
+              </h2>
+              <p class="main__text text-line main__title__white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Convallis lectus odio vitae, duis nec ut velit, fermentum. Diam
+                sollicitudin arcu euismod morbi. Adipiscing bibendum elementum,
+                fermentum amet quis erat.
+              </p>
+              <a class="main__text go-link" href="#">► Все товары</a>
+            </div>
+          </div>
+          <img
+            class="home-back-img w-100"
+            src="./images/home/home.png"
+            alt=""
+          />
+        </div>
+
+        <div class="container mt-2 mt-md-3 home-text-phone d-lg-none">
+          <h2 class="main__title main__title__home">
+            Быстрый и удобный шоппинг
+          </h2>
+          <p class="main__text text-line">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis
+            lectus odio vitae, duis nec ut velit, fermentum.
+          </p>
+          <a class="main__text main__text__home go-link go-link-home" href="#"
+            >► Все товары</a
+          >
+        </div>
+      </section>
+      <section id="features">
+        <div class="container">
+          <h2 class="main__title text-center">Наши преимущества</h2>
+          <div class="row pt-4 my-0">
+            <div class="align-items-center features-card col-12 col-lg-4 mt-1">
+              <div class="text-center features-inner-card">
+                <img
+                  class="pt-4"
+                  src="./images/home/features-card_stars.png"
+                  alt=""
+                />
+                <p class="main__text pt-5 pb-4">Лучший сервис</p>
+              </div>
+            </div>
+            <div class="align-items-center features-card col-12 col-lg-4 mt-1">
+              <div class="text-center features-inner-card">
+                <img
+                  class="pt-4"
+                  src="./images/home/features-card-truck.png"
+                  alt=""
+                />
+                <p class="main__text pt-5 pb-4">Экспресс доставка</p>
+              </div>
+            </div>
+            <div class="align-items-center features-card col-12 col-lg-4 mt-1">
+              <div class="text-center features-inner-card">
+                <img
+                  class="pt-4"
+                  src="./images/home/features-card-like.png"
+                  alt=""
+                />
+                <p class="main__text pt-5 pb-4">Лучшее качество в стране</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="popular">
+        <div class="container">
+          <h2 class="main__title text-center pb-4">Лучшие товары</h2>
+
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="card">
+                <img
+                  src="./images/home/popular-card-1.png"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body card-body-cus">
+                  <h5 class="card-title popular-card-title d-none d-sm-block">
+                    Lorem ipsum dolor sit amet
+                  </h5>
+                  <img
+                    class="mb-1 d-sm-none"
+                    src="./images/home/card-stars.png"
+                    alt=""
+                  />
+                  <p class="card-text popular-card-text d-none d-sm-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    sed odio sed nascetur.
+                  </p>
+                  <p class="card-text popular-card-text d-block d-sm-none">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <div
+                    class="stars mb-2 d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      class="d-none d-sm-block"
+                      src="./images/home/card-stars.png"
+                      alt=""
+                    />
+                    <h6 class="item-cost">855у.е.</h6>
+                  </div>
+                  <a
+                    href="./pages/checkout.html"
+                    class="btn d-none d-sm-block btn-warning popular-card-title w-100"
+                    >Добавить в корзину</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img
+                  src="./images/home/popular-card-2.png"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body-cus card-body">
+                  <h5 class="card-title popular-card-title d-none d-sm-block">
+                    Lorem ipsum dolor sit amet
+                  </h5>
+                  <img
+                    class="mb-1 d-sm-none"
+                    src="./images/home/card-stars.png"
+                    alt=""
+                  />
+                  <p class="card-text popular-card-text d-none d-sm-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    sed odio sed nascetur.
+                  </p>
+                  <p class="card-text popular-card-text d-block d-sm-none">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <div
+                    class="stars mb-2 d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      class="d-none d-sm-block"
+                      src="./images/home/card-stars.png"
+                      alt=""
+                    />
+                    <h6 class="item-cost">855у.е.</h6>
+                  </div>
+                  <a
+                    href="./pages/checkout.html"
+                    class="btn d-none d-sm-block btn-warning popular-card-title w-100"
+                    >Добавить в корзину</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img
+                  src="./images/home/popular-card-3.png"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body-cus card-body">
+                  <h5 class="card-title popular-card-title d-none d-sm-block">
+                    Lorem ipsum dolor sit amet
+                  </h5>
+                  <img
+                    class="mb-1 d-sm-none"
+                    src="./images/home/card-stars.png"
+                    alt=""
+                  />
+                  <p class="card-text popular-card-text d-none d-sm-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    sed odio sed nascetur.
+                  </p>
+                  <p class="card-text popular-card-text d-block d-sm-none">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <div
+                    class="stars mb-2 d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      class="d-none d-sm-block"
+                      src="./images/home/card-stars.png"
+                      alt=""
+                    />
+                    <h6 class="item-cost">855у.е.</h6>
+                  </div>
+                  <a
+                    href="./pages/checkout.html"
+                    class="btn d-none d-sm-block btn-warning popular-card-title w-100"
+                    >Добавить в корзину</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img
+                  src="./images/home/popular-card-4.png"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body-cus card-body">
+                  <h5 class="card-title popular-card-title d-none d-sm-block">
+                    Lorem ipsum dolor sit amet
+                  </h5>
+                  <img
+                    class="mb-1 d-sm-none"
+                    src="./images/home/card-stars.png"
+                    alt=""
+                  />
+                  <p class="card-text popular-card-text d-none d-sm-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    sed odio sed nascetur.
+                  </p>
+                  <p class="card-text popular-card-text d-block d-sm-none">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <div
+                    class="stars mb-2 d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      class="d-none d-sm-block"
+                      src="./images/home/card-stars.png"
+                      alt=""
+                    />
+                    <h6 class="item-cost">855у.е.</h6>
+                  </div>
+                  <a
+                    href="./pages/checkout.html"
+                    class="btn d-none d-sm-block btn-warning popular-card-title w-100"
+                    >Добавить в корзину</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="category">
+        <div class="container">
+          <h2 class="main__title text-center pb-4">Категории</h2>
+          <div class="d-none d-sm-block owl-carousel owl-theme">
+            <div class="card category-card">
+              <div class="category-image-hover">
+                <img src="./images/home/category-card.png" alt="" />
+              </div>
+              <div class="card-text-hover">
+                <h2 class="category-text text-center">Женская обувь</h2>
+              </div>
+            </div>
+            <div class="card category-card">
+              <div class="category-image-hover">
+                <img src="./images/home/category-card-sumka.png" alt="" />
+              </div>
+              <div class="card-text-hover">
+                <h2 class="category-text text-center">Женская обувь</h2>
+              </div>
+            </div>
+            <div class="card category-card">
+              <div class="category-image-hover">
+                <img src="./images/home/category-card.png" alt="" />
+              </div>
+              <div class="card-text-hover">
+                <h2 class="category-text text-center">Женская обувь</h2>
+              </div>
+            </div>
+            <div class="card category-card">
+              <div class="category-image-hover">
+                <img src="./images/home/category-card-shapka.png" alt="" />
+              </div>
+              <div class="card-text-hover">
+                <h2 class="category-text text-center">Женская обувь</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-sm-none owl-carousel owl-theme">
+            <div class="card category-card">
+              <img src="./images/home/category-card.png" alt="" />
+
+              <h2 class="category-text-phone pt-2">Женская обувь</h2>
+            </div>
+            <div class="card category-card">
+              <img src="./images/home/category-card-shapka.png" alt="" />
+
+              <h2 class="category-text-phone pt-2">Женская обувь</h2>
+            </div>
+            <div class="card category-card">
+              <img src="./images/home/category-card-sumka.png" alt="" />
+
+              <h2 class="category-text-phone pt-2">Женская обувь</h2>
+            </div>
+            <div class="card category-card">
+              <img src="./images/home/category-card.png" alt="" />
+
+              <h2 class="category-text-phone pt-2">Женская обувь</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="download">
+        <div class="container d-flex flex-column flex-lg-row">
+          <div class="phone">
+            <img class="sur" src="./images/home/download-phone.png" alt="" />
+          </div>
+          <div class="download-title">
+            <h2 class="main__title main__title__white pt-0 pt-lg-5">
+              Скачай приложение и получай призы
+            </h2>
+            <p class="main__text main__title__white pt-3 pt-lg-4 mb-0">
+              Скачав наш приложение вы получаете возможность играть в призовые
+              игры каждый день и выигровать разного рода подарки для себя. В
+              нашем приложении призовые игры проходят аблолютно каждый день и
+              всё это совершенно бесплатно.
+            </p>
+            <div class="download-site d-flex flex-wrap">
+              <a class="me-3 mt-3" href="#"
+                ><img src="./images/home/download-app-store.png" alt=""
+              /></a>
+              <a class="mt-3" href="#"
+                ><img src="./images/home/download-play-market.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="new">
+        <div class="container">
+          <h2 class="main__title text-center pb-4">Новые товары</h2>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="card">
+                <img
+                  src="./images/home/popular-card-1.png"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body card-body-cus">
+                  <h5 class="card-title popular-card-title d-none d-sm-block">
+                    Lorem ipsum dolor sit amet
+                  </h5>
+                  <img
+                    class="mb-1 d-sm-none"
+                    src="./images/home/card-stars.png"
+                    alt=""
+                  />
+                  <p class="card-text popular-card-text d-none d-sm-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    sed odio sed nascetur.
+                  </p>
+                  <p class="card-text popular-card-text d-block d-sm-none">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <div
+                    class="stars mb-2 d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      class="d-none d-sm-block"
+                      src="./images/home/card-stars.png"
+                      alt=""
+                    />
+                    <h6 class="item-cost">855у.е.</h6>
+                  </div>
+                  <a
+                    href="./pages/checkout.html"
+                    class="btn d-none d-sm-block btn-warning popular-card-title w-100"
+                    >Добавить в корзину</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img
+                  src="./images/home/popular-card-2.png"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body-cus card-body">
+                  <h5 class="card-title popular-card-title d-none d-sm-block">
+                    Lorem ipsum dolor sit amet
+                  </h5>
+                  <img
+                    class="mb-1 d-sm-none"
+                    src="./images/home/card-stars.png"
+                    alt=""
+                  />
+                  <p class="card-text popular-card-text d-none d-sm-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    sed odio sed nascetur.
+                  </p>
+                  <p class="card-text popular-card-text d-block d-sm-none">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <div
+                    class="stars mb-2 d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      class="d-none d-sm-block"
+                      src="./images/home/card-stars.png"
+                      alt=""
+                    />
+                    <h6 class="item-cost">855у.е.</h6>
+                  </div>
+                  <a
+                    href="./pages/checkout.html"
+                    class="btn d-none d-sm-block btn-warning popular-card-title w-100"
+                    >Добавить в корзину</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img
+                  src="./images/home/popular-card-3.png"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body-cus card-body">
+                  <h5 class="card-title popular-card-title d-none d-sm-block">
+                    Lorem ipsum dolor sit amet
+                  </h5>
+                  <img
+                    class="mb-1 d-sm-none"
+                    src="./images/home/card-stars.png"
+                    alt=""
+                  />
+                  <p class="card-text popular-card-text d-none d-sm-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    sed odio sed nascetur.
+                  </p>
+                  <p class="card-text popular-card-text d-block d-sm-none">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <div
+                    class="stars mb-2 d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      class="d-none d-sm-block"
+                      src="./images/home/card-stars.png"
+                      alt=""
+                    />
+                    <h6 class="item-cost">855у.е.</h6>
+                  </div>
+                  <a
+                    href="./pages/checkout.html"
+                    class="btn d-none d-sm-block btn-warning popular-card-title w-100"
+                    >Добавить в корзину</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card">
+                <img
+                  src="./images/home/popular-card-4.png"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body-cus card-body">
+                  <h5 class="card-title popular-card-title d-none d-sm-block">
+                    Lorem ipsum dolor sit amet
+                  </h5>
+                  <img
+                    class="mb-1 d-sm-none"
+                    src="./images/home/card-stars.png"
+                    alt=""
+                  />
+                  <p class="card-text popular-card-text d-none d-sm-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    sed odio sed nascetur.
+                  </p>
+                  <p class="card-text popular-card-text d-block d-sm-none">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <div
+                    class="stars mb-2 d-flex justify-content-between align-items-center"
+                  >
+                    <img
+                      class="d-none d-sm-block"
+                      src="./images/home/card-stars.png"
+                      alt=""
+                    />
+                    <h6 class="item-cost">855у.е.</h6>
+                  </div>
+                  <a
+                    href="./pages/checkout.html"
+                    class="btn d-none d-sm-block btn-warning popular-card-title w-100"
+                    >Добавить в корзину</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="imperia">
+        <div class="container-cus d-none d-lg-flex clothes">
+          <img src="./images/home/imperia.png" alt="" />
+
+          <div class="ps-5 imperia-desc">
+            <div class="container">
+              <h2 class="main__title">
+                Создай свой лук на все случаи жизни в “Imperia”
+              </h2>
+              <p class="main__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                sollicitudin a cursus in. Vel sit donec semper magna dignissim.
+                Amet, mi justo at metus vestibulum sollicitudin lacus. Nunc vel
+                egestas fermentum pellentesque sed vitae vel.
+              </p>
+              <a
+                href="./pages/categories.html"
+                class="btn btn-warning popular-card-title"
+              >
+                начать покупки
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-cus d-lg-none clothes">
+          <div class="imperia-desc">
+            <div class="container">
+              <img class="w-100" src="./images/home/imperia.png" alt="" />
+              <h2 class="pt-4 main__title main__title__home">
+                Создай свой лук на все случаи жизни в “Imperia”
+              </h2>
+              <p class="main__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                sollicitudin a cursus in. Vel sit donec semper magna dignissim.
+              </p>
+              <a
+                href="./pages/categories.html"
+                class="text-center btn btn-warning popular-card-title"
+              >
+                начать покупки
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="last">
+        <div
+          class="container d-flex align-items-center justify-content-center text-center"
+        >
+          <h2 class="main__title">
+            Скидка 30% на первую покупку обслютно для всех
+          </h2>
+        </div>
+      </section>
+    </main>
+    <footer w3-include-html="footer.html"></footer>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        300: {
+          items: 2,
+        },
+        1000: {
+          items: 4,
+        },
+      },
+    });
+  </script>
+</html>

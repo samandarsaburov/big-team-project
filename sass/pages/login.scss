@@ -1,0 +1,21 @@
+@import "../main.scss";
+
+body {
+  background: #e5e5e5;
+}
+
+input {
+  display: inline-block;
+  width: 100%;
+}
+
+.same-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #000000;
+}
